@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Michael Lu</title>
+  <meta name="description" content="Homepage of Michael Lu">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=Figtree:wght@400;600&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- ═════════ HEADER: photo, name, links ═════════ -->
+  <header class="top">
+
+     <img src="assets/avatar.jpg" alt="Portrait of Jane Doe" width=width="192" height="192">
+    <div>
+      <h1>Michael Lu</h1>
+      <p class="tagline">PhD Candidate, Simon Fraser University</p>
+      <ul class="links">
+        <li><a href="https://scholar.google.com/citations?user=sJRl2B4AAAAJ&hl=en">Google Scholar</a></li>
+        <li><a href="https://github.com/sudo-michael/">GitHub</a></li>
+        <!-- <li><a href="assets/cv.pdf">CV</a></li> -->
+      </ul>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ═════════ ABOUT ═════════ -->
+    <section id="about">
+      <h2>About</h2>
+      <p>I am a final year PhD candidate at Simon Fraser University under the supervision of Dr. Mo Chen and Dr. Sharan Vaswani.</p>
+      <p>I’m broadly interested in Safe Reinforcement Learning and Reinforcement Learning Theory. In particular, I’m interested in how Hamilton-Jacobi Reachability analysis can be combined with Deep Reinforcement Learning methods and the convergence rates of (stochastic) policy graident methods for (C)MDPs.
+    </section>
+
+    <!-- 
+        <section id="news">
+          <h2>News</h2>
+          <dl>
+            <dt>2026-09</dt><dd>Paper accepted at <em>NeurIPS 2026</em>.</dd>
+            <dt>2026-06</dt><dd>Gave an invited talk at the Example Workshop.</dd>
+            <dt>2026-01</dt><dd>Started as Assistant Professor at Example University.</dd>
+          </dl>
+        </section>
+    -->
+
+    <!-- ═════════ PUBLICATIONS ═════════ -->
+    <section id="publications">
+      <h2>Publications</h2>
+      <h3>2026</h3>
+      <ul class="pubs">
+        <li>
+          <p class="pub-title">Augmented Lagrangian Method for Last-Iterate Convergence for Constrained MDPs</p>
+          <p class="pub-authors"><strong>Michael Lu</strong>, Max Qiushi Lin, Mo Chen, and Sharan Vaswani</p>
+          <p class="pub-venue">NeurIPS 2026</p>
+          <div class="pub-links">
+            <a href="https://arxiv.org/pdf/2605.11694">Paper</a>
+          </div>
+        </li>
+      </ul>
+
+      <h3>2025</h3>
+      <ul class="pubs">
+        <li>
+          <p class="pub-title">Safe Learning in the Real World via Adaptive Shielding with Hamilton-Jacobi Reachability</p>
+          <p class="pub-authors"><strong>Michael Lu</strong>, Jashanraj Gosain, Luna Sang, and Mo Chen
+          <p class="pub-venue">L4DC 2024</p>
+          <div class="pub-links">
+            <a href="https://proceedings.mlr.press/v283/lu25a.html">Paper</a>
+          </div>
+        </li>
+
+        <li>
+          <p class="pub-title">Rethinking the Global Convergence of Softmax Policy Gradient with Linear Function Approximation: The Case of Multi-Armed Bandits</p>
+          <p class="pub-authors">Max Qiushi Lin, Jincheng Mei, Matin Aghaei, <strong>Michael Lu</strong>, Bo Dai, Alekh Agarwal, Dale Schuurmans, Csaba Szepesvári, and Sharan Vaswani
+          <p class="pub-venue">Preprint</p>
+          <div class="pub-links">
+            <a href="https://arxiv.org/abs/2505.03155">Paper</a>
+          </div>
+        </li>
+
+
+        <li>
+          <p class="pub-title">Fast Confidence-Aware Human Prediction via Hardware-accelerated Bayesian Inference for Safe Robot Navigation</p>
+          <p class="pub-authors"><strong>Michael Lu</strong>, Minh Bui, Xubo Lyu, and Mo Chen
+          <p class="pub-venue">Preprint</p>
+          <div class="pub-links">
+            <a href="https://arxiv.org/abs/2603.01122">Paper</a>
+          </div>
+        </li>
+      </ul>
+
+      <h3>2024</h3>
+      <ul class="pubs">
+        <li>
+          <p class="pub-title">Towards Principled, Practical Policy Gradient for Bandits and Tabular MDPs
+</p>
+          <p class="pub-authors"><strong>Michael Lu</strong>, Matin Aghaei, Anant Raj, and Sharan Vaswani</p>
+          <p class="pub-venue">RLJ 2024</p>
+          <div class="pub-links">
+            <a href="https://arxiv.org/abs/2405.13136">Paper</a>
+            <a href="https://github.com/sudo-michael/practical-pg">Code</a>
+          </div>
+        </li>
+      </ul>
+
+      <h3>2021</h3>
+      <ul class="pubs">
+        <li>
+          <p class="pub-title">Real-time Hamilton-Jacobi Reachability Analysis of Autonomous System With An FPGA</p>
+          <p class="pub-authors">Minh Bui, <strong>Michael Lu</strong>, Reza Hojabr, Mo Chen, and Arrvindh Shriraman</p>
+          <p class="pub-venue">IROS 2021</p>
+          <div class="pub-links">
+            <a href="https://ieeexplore.ieee.org/document/9636410">Paper</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ═════════ TEACHING (delete this whole section if not needed) ═════════ 
+    <section id="teaching">
+      <h2>Teaching</h2>
+      <ul class="plain">
+        <li>CS 4xx: Reinforcement Learning, Fall 2026</li>
+        <li>CS 2xx: Probability for Computing, Spring 2026</li>
+      </ul>
+    </section>
+    -->
+  </main>
+
+  <!-- ═════════ FOOTER ═════════ -->
+  <footer>
+    <p>Contact: <a href="mailto:mla233@sfu.ca">mla233@sfu.ca</a></p>
+    <!-- <p class="small">Last updated October 2026.</p> -->
+  </footer>
+</body>
+</html>
